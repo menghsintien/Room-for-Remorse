@@ -1,0 +1,80 @@
+body{background-color:#4f4f4f;}
+.bg-4{background-color:#222222;}
+
+.footer{ color: gainsboro;text-align: center;}
+
+iframe{margin-top: 50px;margin-bottom: 50px;}
+.article{color: #d1d1d1;margin-top: 50px;margin-bottom: 50px;}
+
+.articletitle{color: #d1d1d1;width:40%; margin-left: auto;margin-right: auto;font-size: 36px;font-weight: 800;letter-spacing: 1px; margin-top: 100px;margin-bottom: 30px;}
+
+#head{font-size: 22px;margin-bottom: -40px;}
+
+@media (max-width:1580px) {
+    
+   
+.article{width:60%;margin-left: auto;margin-right: auto;font-size: 18px;letter-spacing:;line-height: 2;margin-bottom:}
+    
+iframe {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
+   
+    
+}
+
+@media (max-width:1280px) {
+    
+     .articletitle{width:55%; margin-left: auto;margin-right: auto;font-size: 36px;font-weight: 800;letter-spacing: 1px; margin-top: 100px;margin-bottom: 30px;}
+    
+    
+      .article{width:60%;margin-left: auto;margin-right: auto;font-size: 18px;letter-spacing:;line-height: 2;margin-bottom:}
+    
+    
+    
+  iframe{
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+}
+
+
+
+@media (max-width:900px) {
+   .articletitle{width:60%; margin-left: auto;margin-right: auto;font-size: 36px;font-weight: 800;letter-spacing: 1px; margin-top: 70px;margin-bottom: 30px;}
+    
+    .article{width:65%;margin-left: auto;margin-right: auto;font-size: 18px;letter-spacing:;line-height: 2;margin-bottom:}
+
+    
+    iframe{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+}
+
+@media (max-width:480px) {
+    
+    .articletitle{width:85%; margin-left: auto;margin-right: auto;font-size: 36px;font-weight: 800;letter-spacing: 1px; margin-top: 70px;margin-bottom: 30px;}
+    
+   .article{width:90%;margin-left: auto;margin-right: auto;font-size: 18px;letter-spacing:;line-height: 2;margin-bottom:}
+    
+  iframe{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+}
+
+
